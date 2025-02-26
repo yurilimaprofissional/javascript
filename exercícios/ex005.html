@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom</title>
+    <style>
+        body {
+            background-color: rgb(248, 181, 154);
+            color: rgb(119, 32, 32);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            font-weight: bolder;
+        }
+
+        h2 {
+            background-color: rgba(127, 255, 212, 0.493);
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        p {
+            line-height: 30px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Estudando o DOM</h1>
+    <h1>Iniciando os estudos com o DOM</h1>
+    <h2>Sub-título</h2>
+    <p id="tx1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste libero at, perferendis eos sed assumenda quod officia ipsam fugiat aperiam molestiae illo necessitatibus impedit et dolorem optio magnam? Quidem!</p>
+    <p id="tx2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, recusandae quaerat! Delectus neque consequatur consectetur corrupti, incidunt est ut possimus. Laborum aliquam magnam saepe nemo facilis tempora aut accusantium nobis.</p>
+    <script>
+        var nome = window.document.querySelector('p#tx1')
+        nome.style.color = 'blue'
+    </script>
 </body>
 </html>

@@ -3,34 +3,24 @@
 body {
     background-color: rgb(86, 117, 255);
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-header h1 {
-    color: white;
+header {
     text-align: center;
+    color: white;
 }
 
 section {
     background-color: white;
-    border-radius: 20px;
-    width: 500px;
     padding: 15px;
+    width: 500px;
     margin: auto;
-    text-align: center;
-    
-}
-
-div {
-    padding: 8px;
-    text-align: center;
-    
-
+    border-radius: 15px;
 }
 
 
 
 footer {
-    color: white;
     text-align: center;
-    font-size: 20px;
 }

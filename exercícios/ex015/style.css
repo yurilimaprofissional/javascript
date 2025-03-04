@@ -19,7 +19,9 @@ section {
     border-radius: 15px;
 }
 
-
+div img {
+    margin: auto;
+}
 
 footer {
     text-align: center;

@@ -7,40 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Verificador de Idade</h1>
-</header>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
 
-<section>
-    <div id="ano">
-        <p>
-            Ano de Nascimento:
-            <input type="number" name="txtano" id="txtano">
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc">
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="femi">
+                <label for="femi">Feminino</label>
+            </p>
 
+            <P><input type="button" value="Verificar" onclick="verificar()"></P>
 
-        </p>
+        </div>
 
-        <p>
-            Sexo:
-            <input type="radio" name="sexo" id="mas">
-            <label for="mas">Masculino</label>
-            <input type="radio" name="sexo" id="fem">
-            <label for="fem">Feminino</label>
-        </p>
-        <p><input type="button" value="Verificar" onclick="verificar()"> </p>
+        <div id="res">
+            Preencha os dados acima para ver o resultado! 
+        </div>
+    </section>
 
-    </div>   
+    <footer>
+        <p>&copy;Yuri Lima</p>
+    </footer>
+    <script src="script.js"></script>
     
-    <div id="res">
-        Preencha os dados para ver o resultado!
-
-    </div>
-</section>
-
-<footer>
-    <p>&copy;CursoEmVídeo</p>
-</footer>
-
-<script src="script.js"> </script>
 </body>
 </html>

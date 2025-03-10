@@ -1,12 +1,6 @@
-function parimp(n) {
-    if (n % 2 == 0) {
-        return 'Par!'
-    }
-    else {
-        return 'Ímpar!'
+function soma (n1 =0, n2=0) {
+    return n1 + n2
     }
 
-}
-
-var res = parimp(12)
+var res = soma(7,4)
 console.log(res)
